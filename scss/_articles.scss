@@ -1,0 +1,49 @@
+.articles {
+  margin: 50px 0;
+}
+
+.col-4-12:nth-of-type(2) {
+  margin: 0 40px;
+}
+
+.article {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow:  0 3px 1px rgba(#000, 0.1);
+}
+
+.article-img-link {
+  display: block;
+}
+
+.article-img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.article-content {
+  padding: 65px 30px;
+}
+
+.article-title{
+  margin: 0 0 10px 0;
+}
+
+.article-subtitle{
+  margin-bottom: 40px;
+}
+
+.article-text{
+  line-height: 2em;
+  color: #888;
+}
+
+@media (max-width: $desktop) {
+  .col-4-12{
+    padding-bottom: 60px;
+
+    &:nth-of-type(2) {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+$gap : 0;
+$column : 12;
+$desktop : 980px;
+
+.container {
+  .row {
+    [class^="col-"] {
+      padding-left: $gap;
+      padding-right: $gap;
+      box-sizing: border-box;
+      margin-bottom: 2*$gap;
+    }
+
+    @media (min-width: $desktop) {
+      display: flex;
+
+      @for $i from 1 through $column {
+        .col-#{ $i }-#{$column}  {
+          width: (100 / $column * $i) * 1%;
+        }
+      }
+    }
+  }
+}
+

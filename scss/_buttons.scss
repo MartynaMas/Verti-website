@@ -1,0 +1,52 @@
+.btn {
+  border-radius: 6px;
+  color: white;
+  padding: 20px;
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s, background;
+  cursor: pointer;
+
+  span {
+    margin: 0 10px;
+  }
+}
+
+
+.btn-first {
+  background: $colorFirst;
+  color: #fff;
+  &:hover {
+    background: darken($colorFirst, 10);
+  }
+}
+.btn-second {
+  color: #444;
+  background: $colorSecond;
+  &:hover {
+    background: darken($colorSecond, 10);
+  }
+}
+
+@media (max-width: $desktop) {
+  .btn-first,
+  .btn-second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    span {
+      margin-left: 10px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .btn {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  background: #EDEDED;
+  color: #444;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: $desktop) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 735px) {
+  .container {
+    padding: 20px;
+  }
+
+}
