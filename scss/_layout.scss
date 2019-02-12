@@ -18,14 +18,18 @@ body {
 }
 
 @media (max-width: $desktop) {
+ .wrap-all {
+    transition: 1s transform;
+    overflow: hidden;
+  }
+
   .container {
     padding: 0 40px;
   }
 }
 
-@media (max-width: 735px) {
+@media (max-width: $tablet) {
   .container {
     padding: 20px;
   }
-
 }

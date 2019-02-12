@@ -2,56 +2,10 @@
 @import "grid";
 @import "normalize";
 @import "layout";
+@import "page-nav";
 @import "buttons";
-@import "page-header";
+@import "header";
 @import "welcome";
 @import "articles";
 @import "section";
-
-.page-nav-list-mobile {
-  display: none;
-}
-
-@media (max-width: $desktop) {
-  .wrap-all {
-    transition: 1s transform;
-    overflow: hidden;
-  }
-
-  .page-nav-list-mobile {
-    position: fixed;
-    top: 0;
-    left: -$menuWidth;
-    width: $menuWidth;
-    height: 100%;
-    background: #fff;
-    margin: 0;
-    padding: 0;
-    box-shadow: 2px 0 15px rgba(#000, 0.2);
-    transition: 1s transform;
-    display: block;
-  }
-
-  .page-nav-list-mobile a {
-    display: block;
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
-    text-decoration: none;
-    font-weight: bold;
-    color: #444;
-    transition: 0.2s;
-
-    &:hover {
-      background: #eee;
-    }
-  }
-
-  body.show-nav {
-    .wrap-all,
-    .page-nav-list-mobile {
-      transform: translate($menuWidth, 0);
-    }
-  }
-}
-
-
+@import "footer";
