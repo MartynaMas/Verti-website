@@ -14,6 +14,6 @@ My first fully responsive website template.
   [example]: https://html5up.net/
   
   ## Demo:
-  [Verti Website][example].
+  [Verti Website][verti]
   
-  [example]: https://martynamas.github.io/Verti_Website/
+  [verti]: https://martynamas.github.io/Verti_Website/
