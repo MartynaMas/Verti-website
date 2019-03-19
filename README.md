@@ -12,3 +12,8 @@ My first fully responsive website template.
   Inspired by: [HTML5 UP][example].
   
   [example]: https://html5up.net/
+  
+  ## Demo:
+  [Verti Website][example].
+  
+  [example]: https://martynamas.github.io/Verti_Website/
